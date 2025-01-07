@@ -1,9 +1,14 @@
-import Image from "next/image";
-
-export default function Home() {
+// import Image from "next/image";
+import Home from "./components/Home";
+import Services from "./components/Services";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
+export default function Main() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <div >
+      {/* <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
           src="/next.svg"
@@ -95,7 +100,14 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
-      </footer>
+      </footer> */}
+     
+     <Home />
+     <Services />
+     <Education />
+     <Project />
+     <Skills/>
+     <Contact />
     </div>
   );
 }
