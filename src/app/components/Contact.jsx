@@ -10,7 +10,7 @@ function Contact() {
         <div className='grid grid-cols-2 gap-10 items-center'>
             <div className='contact-form'>
                <div className='Service-heading-1'>
-          <h2>Let's work together!</h2>
+          <h2>Lets work together!</h2>
           <p>I design and code beautifully simple things and i love what i do. Just simple like that!</p>
                </div>
                <div className='contact-form-1'>
