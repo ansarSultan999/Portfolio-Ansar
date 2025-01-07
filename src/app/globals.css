@@ -453,4 +453,5 @@ transform: rotate(-410deg);
 .footer-text>p >span {
   font-weight: bold;
   color: #fff;
+  margin-bottom: 0;
 }
